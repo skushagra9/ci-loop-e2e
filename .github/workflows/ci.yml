@@ -9,7 +9,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node --test tests/hero.test.mjs
+      - run: node --test tests/hero.test.mjs tests/buttons.test.mjs
   changelog:
     name: Changelog
     runs-on: ubuntu-latest

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --test tests/hero.test.mjs"
+    "test": "node --test tests/hero.test.mjs tests/buttons.test.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.0.6",

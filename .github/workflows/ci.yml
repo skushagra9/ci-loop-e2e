@@ -10,3 +10,11 @@ jobs:
         with:
           node-version: 20
       - run: node --test tests/hero.test.mjs
+  changelog:
+    name: Changelog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: node scripts/check-changelog.mjs

@@ -5,5 +5,5 @@ import assert from "node:assert/strict";
 const heading = readFileSync(new URL("../src/components/Heading.tsx", import.meta.url), "utf8");
 
 test("hero has the primary call to action", () => {
-  assert.match(heading, />\s*View Work\s*</, 'hero primary button should read "View Work"');
+  assert.match(heading, />\s*See My Work\s*</, 'hero primary button should read "See My Work"');
 });

@@ -7,7 +7,7 @@ export default function Header() {
 
       <div className="max-w-screen-lg mx-auto text-center space-y-6 animate-fade-up">
         <p className="text-sm font-medium tracking-widest uppercase text-muted-foreground">
-          Software Engineer
+          Senior Software Engineer
         </p>
         <h1 className="font-[family-name:var(--font-display)] text-5xl md:text-7xl font-extrabold tracking-tight">
           Kushagra Sharma

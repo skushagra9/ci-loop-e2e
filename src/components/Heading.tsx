@@ -27,7 +27,7 @@ export default function Header() {
             href="#contact"
             className="inline-flex h-10 items-center rounded-lg border border-border px-6 text-sm font-medium transition-colors hover:bg-secondary"
           >
-            Say Hello
+            Get in touch
           </a>
         </div>
       </div>

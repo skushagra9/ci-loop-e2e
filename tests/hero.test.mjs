@@ -11,3 +11,7 @@ test("hero eyebrow names the role", () => {
 test("hero title is the owner's name", () => {
   assert.match(heading, />\s*Kushagra Sharma\s*</);
 });
+
+test("hero eyebrow says Available for work", () => {
+  assert.match(heading, /Available for work/);
+});

@@ -9,3 +9,5 @@
 ## 2026-10-22
 
 - Hero copy check in CI.
+
+- Hero eyebrow reads "Software Developer".
